@@ -7,6 +7,7 @@
       color: #333333;
       font-family: Arial, sans-serif;
     }
+    
     .container {
       max-width: 600px;
       margin: 50px auto;
@@ -14,7 +15,8 @@
       padding: 40px;
       border-radius: 12px;
     }
-        h1 {
+    
+    h1 {
       font-size: 32px;
       margin-bottom: 8px;
     }
@@ -30,6 +32,19 @@
       line-height: 1.8;
       color: #555555;
     }
+    
+    .tags {
+      display: flex;
+      gap: 8px;
+    }
+
+    .tag {
+      background-color: #e8f0fe;
+      color: #4a90e2;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
@@ -39,8 +54,16 @@
     
   <h2>소개</h2>
   <p>안녕하세요! 저는 서울에 살고 있으며 요즘 웹 개발에 관심이 생겨 공부를 시작했습니다.</p>
+    
   <h2>연락처</h2>
   <p>이메일: hong@email.com</p>
+    
+  <h2>관심사</h2>
+    <div class="tags">
+      <span class="tag">웹 개발</span>
+      <span class="tag">디자인</span>
+      <span class="tag">음악</span>
+      <span class="tag">여행</span>
   </div>
 </body>
 </html>
